@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="0" name="cucumberOptions.TestRunner" time="0.846" errors="2" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
+    <property name="java.vm.version" value="25.212-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mrinmoy\eclipse-workspace\Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mrinmoy\eclipse-workspace\Automation"/>
+    <property name="java.runtime.version" value="1.8.0_212-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mrinmoy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mrinmoy\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_212\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Users\Mrinmoy\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Mrinmoy\AppData\Local\Android\Sdk\tools\bin;C:\Users\Mrinmoy\AppData\Local\Android\Sdk\tools;C:\Users\Mrinmoy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Mrinmoy\AppData\Local\Android\Sdk;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Users\Mrinmoy\AppData\Local\Microsoft\WindowsApps;C:\Users\Mrinmoy\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\Mrinmoy\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Mrinmoy\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Mrinmoy"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mrinmoy"/>
+    <property name="java.class.path" value="C:\Users\Mrinmoy\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_212\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_212\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mrinmoy\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Search for items and validate the results" name="Given User is on Greencart Landing page" time="0.002"/>
+  <testcase classname="Scenario: Search for items and validate the results" name="When User searched for Cucumber vegitable" time="0"/>
+  <testcase classname="Scenario: Search for items and validate the results" name="Then &quot;Cucumber&quot; results are displayed" time="0"/>
+  <testcase classname="Scenario: Search for items and validate the results" name="Scenario: Search for items and validate the results" time="0.001"/>
+  <testcase classname="| Brinjal |" name="Given User is on Greencart Landing page" time="0.012">
+    <error message="unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NHDJ7D7&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c7ec785d95a09fce25a13efdb12687" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NHDJ7D7&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c7ec785d95a09fce25a13efdb12687
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at Cucumber.Automation.Base.getDriver(Base.java:17)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:19)
+	at ✽.Given User is on Greencart Landing page(features/Search.feature:12)
+</error>
+    <system-out>
+  @SeleniumTest1
+  Scenario: Search for items and validate the results &amp;#27;[90m# features/Search.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser is on Greencart Landing page&amp;#27;[0m           &amp;#27;[90m# MyStepDefinitions.user_is_on_greencart_landing_page()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser searched for &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mCucumber&amp;#27;[0m&amp;#27;[32m vegitable&amp;#27;[0m         &amp;#27;[90m# MyStepDefinitions.user_searched_for_vegitable(String)&amp;#27;[0m
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mCucumber&amp;#27;[0m&amp;#27;[32m&quot; results are displayed&amp;#27;[0m             &amp;#27;[90m# MyStepDefinitions.something_results_are_displayed(String)&amp;#27;[0m
+
+  @SeleniumTest2
+  Scenario Outline: Search for items and move to checkout page       &amp;#27;[90m# features/Search.feature:11&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser is on Greencart Landing page&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser searched for &lt;Name&gt; vegitable&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mAdded items to cart&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser proceeded to Checkout page for purchase&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mverify selected &lt;Name&gt; items are displayed in Checkout page&amp;#27;[0m
+
+    Examples: 
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 11453
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589293374.462][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589293376.466][WARNING]: Timed out connecting to Chrome, retrying...
+May 12, 2020 7:52:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589293380.487][WARNING]: Timed out connecting to Chrome, retrying...
+</system-err>
+  </testcase>
+  <testcase classname="| Brinjal |" name="| Brinjal |" time="0.014">
+    <error message="unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NHDJ7D7&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c7ec785d95a09fce25a13efdb12687" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NHDJ7D7&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c7ec785d95a09fce25a13efdb12687
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at Cucumber.Automation.Base.getDriver(Base.java:17)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:19)
+	at ✽.Given User is on Greencart Landing page(features/Search.feature:12)
+</error>
+  </testcase>
+  <testcase classname="| Brinjal |" name="When User searched for Brinjal vegitable" time="0.022">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Brinjal |" name="And Added items to cart" time="0.026">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Brinjal |" name="And User proceeded to Checkout page for purchase" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Brinjal |" name="Then verify selected Brinjal items are displayed in Checkout page" time="0.034">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Beetroot |" name="Given User is on Greencart Landing page" time="0"/>
+  <testcase classname="| Beetroot |" name="When User searched for Beetroot vegitable" time="0"/>
+  <testcase classname="| Beetroot |" name="And Added items to cart" time="0"/>
+  <testcase classname="| Beetroot |" name="And User proceeded to Checkout page for purchase" time="0"/>
+  <testcase classname="| Beetroot |" name="Then verify selected Beetroot items are displayed in Checkout page" time="0"/>
+  <testcase classname="| Beetroot |" name="| Beetroot |" time="0.705"/>
+</testsuite>

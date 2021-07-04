@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for items and validate the results",
+        "description": "",
+        "id": "search-and-place-order-for-vegitable;search-for-items-and-validate-the-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14116410100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3246031100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searched for Cucumber vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_vegitable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672730100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "MyStepDefinitions.something_results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SeleniumTest1"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Search for items and move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegitable;search-for-items-and-move-to-checkout-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 672907600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9244632200,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is minimized\n  (Session info: chrome\u003d81.0.4044.138)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-NHDJ7D7\u0027, ip: \u0027172.20.10.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\\Users\\Mrinmoy\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d8c7ec785d95a09fce25a13efdb12687\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat Cucumber.Automation.Base.getDriver(Base.java:17)\r\n\tat stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:19)\r\n\tat ✽.Given User is on Greencart Landing page(features/Search.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User searched for Brinjal vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_vegitable(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Added items to cart",
+            "match": {
+              "location": "MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User proceeded to Checkout page for purchase",
+            "match": {
+              "location": "MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify selected Brinjal items are displayed in Checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.verify_selected_items_are_displayed_in_checkout_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@SeleniumTest2"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Search for items and move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vegitable;search-for-items-and-move-to-checkout-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 703529800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniumTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14043205100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Greencart Landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3277713900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User searched for Beetroot vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_vegitable(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153511400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Added items to cart",
+            "match": {
+              "location": "MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146090700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User proceeded to Checkout page for purchase",
+            "match": {
+              "location": "MyStepDefinitions.user_proceeded_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30784600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify selected Beetroot items are displayed in Checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.verify_selected_items_are_displayed_in_checkout_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@SeleniumTest2"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegitable",
+    "description": "",
+    "id": "search-and-place-order-for-vegitable",
+    "keyword": "Feature",
+    "uri": "features/Search.feature"
+  }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="46.307547">
+<testcase classname="Search and place order for vegitable" name="Search for items and validate the results" time="18.035171">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Cucumber vegitable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegitable" name="Search for items and move to checkout page" time="9.91754">
+<failure message="org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is minimized&#10;  (Session info: chrome=81.0.4044.138)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-NHDJ7D7', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d8c7ec785d95a09fce25a13efdb12687&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)&#13;&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:17)&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:19)&#13;&#10;&#9;at ✽.Given User is on Greencart Landing page(features/Search.feature:12)&#13;&#10;"><![CDATA[Given User is on Greencart Landing page.....................................failed
+When User searched for Brinjal vegitable....................................skipped
+And Added items to cart.....................................................skipped
+And User proceeded to Checkout page for purchase............................skipped
+Then verify selected Brinjal items are displayed in Checkout page...........skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NHDJ7D7', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Mrinmoy\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:22482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8c7ec785d95a09fce25a13efdb12687
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at Cucumber.Automation.Base.getDriver(Base.java:17)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:19)
+	at ✽.Given User is on Greencart Landing page(features/Search.feature:12)
+]]></failure>
+</testcase>
+<testcase classname="Search and place order for vegitable" name="Search for items and move to checkout page 2" time="18.354836">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Beetroot vegitable...................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in Checkout page..........passed
+]]></system-out>
+</testcase>
+</testsuite>
