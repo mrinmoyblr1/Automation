@@ -58,7 +58,7 @@ public class stepDefinations extends Base{
     }
     @Then("^Check if the Browser is displayed$")
     public void check_if_the_browser_is_displayed() throws Throwable {
-    	System.out.println("Check if the Browser is displayed");
+    	System.out.println("Check if the Browser is displayed=================");
     }
     
     
